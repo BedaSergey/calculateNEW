@@ -23,7 +23,9 @@ class LoginController extends Controller
         return redirect()->route('calculator');
 
       } else {
+          
         return redirect()->back();
+          
       }
     }
 }
