@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class CalculatorController extends Controller
 {
-    /* Приходящий запрос
+    /* Incoming request
     array:29 [▼
     "firstta" => null
     "firsttb" => null
@@ -40,48 +40,47 @@ class CalculatorController extends Controller
     ]*/
     public function index(Request $request)
     {
-        // dd($request->all());
         if ($request) {
 
             $results = [];
 
-            // Калькулятор первой таблицы
+            // Calculator of the first table
             if ($request->firstta && $request->firsttb && $request->firsttc) {
                 $result_first_table = $request->firstta/10*$request->firsttb/$request->firsttc;
                 $results['result_first_table'] = $result_first_table;
             }
 
-            // Калькулятор второй таблицы
+            // Calculator of the second table
             if ($request->secondtb && $request->secondtc && $request->secondtd && $request->secondte && $request->secondta) {
                 $result_second_table = ($request->secondtb/$request->secondtc)*$this->getK2($request->secondtd, $request->secondte)/$this->getK1($request->secondta);
                 $results['result_second_table'] = $result_second_table;
             }
 
-            // Калькулятор третей таблицы
+            // Calculator of the third table
             if ($request->thridtb && $request->thridtc && $request->thridtd && $request->thridte && $request->thridta) {
                 $result_thrid_table = ($request->thridtb/$request->thridtc)*$this->getK2($request->thridtd, $request->thridte)/$this->getK1($request->thridta);
                 $results['result_thrid_table'] = $result_thrid_table;
             }
 
-            // Калькулятор четвертой таблицы
+            // Calculator of the fourth table
             if ($request->fourthtb && $request->fourthtc && $request->fourthtd && $request->fourthte && $request->fourthta) {
                 $result_fourth_table = ($request->fourthtb/$request->fourthtc)*$this->getK2($request->fourthtd, $request->fourthte)/$this->getK1($request->fourthta);
                 $results['result_fourth_table'] = $result_fourth_table;
             }
 
-            // Калькулятор пятой таблицы
+            // Calculator of the fifth table
             if ($request->fifthtb && $request->fifthtc && $request->fifthtd) {
                 $result_fifth_table = $request->fifthtd*$this->getK2($request->fifthtb, $request->fifthtc)/1;
                 $results['result_fifth_table'] = $result_fifth_table;
             }
 
-            // Калькулятор шестой таблицы
+            // Calculator of the sixth table
             if ($request->sixta && $request->sixtb && $request->sixtc && $request->sixtd) {
                 $result_six_table = $request->sixta*$this->getK1($request->sixtb)/$this->getK2($request->sixtc, $request->sixtd);
                 $results['result_six_table'] = $result_six_table;
             }
 
-            // Возврат старых значений
+            // Returning old values through a session
             session([
                 "firstta" => $request->firstta,
                 "firsttb" => $request->firsttb,
@@ -113,10 +112,6 @@ class CalculatorController extends Controller
                 "sixtc" => $request->sixtc,
                 "sixtd" => $request->sixtd,
             ]);
-            // dd(session());
-            // $results = [
-            //   $result_first_table, $result_second_table, $result_thrid_table, $result_fourth_table, $result_fifth_table, $result_six_table,
-            // ];
 
             return view('calculator', compact('results'));
 
@@ -127,7 +122,7 @@ class CalculatorController extends Controller
         }
     }
 
-    // Возвращает значение элемента многомерного массива по ключам, переданным в параметры
+    // Returns the value of an element of a multidimensional array by the keys passed to the parameters
     private function getK2($vertical, $horizontal)
     {
         $k2 = [
@@ -315,7 +310,7 @@ class CalculatorController extends Controller
         return $k2[$vertical*2][$horizontal*2];
     }
 
-    // Возвращает коэффицент по называнию культуры
+    // Returns the coefficient by the name of the culture
     private function getK1(string $name)
     {
         $culture = [
