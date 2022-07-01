@@ -1,5 +1,4 @@
 <!-- inputs name like "first table" is "firstt". And for colums "firstta", "firsttb" ... -->
-{{-- {{dd(session())}} --}}
 <div class="d-none d-sm-block">
     <form method="GET" action="{{route('calculator')}}">
         <div class="d-flex flex-column">
