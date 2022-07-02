@@ -30,6 +30,29 @@ trait CalculatorTrait
         return $culture[$name];
     }
 
+    // Returns the valuew of volume by the name of the culture
+    private function getK1Volume(string $name)
+    {
+        $culture = [
+            'Фасоль' => 750,
+            'Горох' => 750,
+            'Пшеница' => 750,
+            'Кукуруза' => 700,
+            'Рожь' => 700,
+            'Ячмень' => 650,
+            'Рапс' => '',
+            'Лен' => 650,
+            'Рыжик' => 650,
+            'Подсолнечник' => 350,
+            'Гречиха' => 550,
+            'Овес' => 500,
+            'Чечевица' => 765,
+            'Рис' => 600,
+            'Вика' => 750,
+        ];
+        return $culture[$name];
+    }
+
     // Returns the value of an element of a multidimensional array by the keys passed to the parameters
     private function getK2($vertical, $horizontal) // you can use int|float in php8
     {

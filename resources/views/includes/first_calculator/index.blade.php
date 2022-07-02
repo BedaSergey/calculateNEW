@@ -1,8 +1,12 @@
 <!-- inputs name like "first table" is "firstt". And for colums "firstta", "firsttb" ... -->
-<div>
-    <form method="post" action="{{ route('secondcalculator.reset') }}">@csrf<button class="btn btn-success shadow-sm">{{ __('Второй калькулятор') }}</button></form>
-</div>
 <div class="d-none d-sm-block">
+    <div class="d-flex justify-content-between">
+        <div><form method="post" action="{{ route('secondcalculator.reset') }}">@csrf<button class="btn btn-success shadow-sm">{{ __('К калькулятор очистка') }}</button></form></div>
+        <div class="fs-3">
+            <span>{{ __('КАЛЬКУЛЯТОР СУШКА') }}</span>
+        </div>
+    </div>
+    <div class="border my-1"></div>
     <form method="GET" action="{{route('firstcalculator')}}">
         <div class="d-flex flex-column">
             <div class="d-flex flex-column bg-body rounded p-2">
