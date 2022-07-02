@@ -24,6 +24,7 @@ class LoginController extends Controller
 
       } else {
           
+        $request->session()->flash('status', 'Неверный пароль!');
         return redirect()->back();
           
       }
