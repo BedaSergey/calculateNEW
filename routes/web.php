@@ -17,6 +17,10 @@ use App\Http\Controllers\Auth\LoginController;
 Route::get('/', [LoginController::class, 'index'])->name('main');
 Route::post('/login', [LoginController::class, 'login'])->name('login');
 
-use App\Http\Controllers\CalculatorController;
-Route::get('/calculator', [CalculatorController::class, 'index'])->middleware('auth')->name('calculator');
-Route::post('/calculator/reset', [CalculatorController::class, 'reset'])->middleware('auth')->name('calculator.reset');
+use App\Http\Controllers\Calc\FirstCalculatorController;
+Route::get('/firstcalculator', [FirstCalculatorController::class, 'index'])->middleware('auth')->name('firstcalculator');
+Route::post('/firstcalculator/reset', [FirstCalculatorController::class, 'reset'])->middleware('auth')->name('firstcalculator.reset');
+
+use App\Http\Controllers\Calc\SecondCalculatorController;
+Route::get('/secondcalculator', [SecondCalculatorController::class, 'index'])->middleware('auth')->name('secondcalculator');
+Route::post('/secondcalculator/reset', [SecondCalculatorController::class, 'reset'])->middleware('auth')->name('secondcalculator.reset');

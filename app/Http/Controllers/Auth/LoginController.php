@@ -4,29 +4,30 @@ namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use App\Http\Requests\LoginRequest;
-use Illuminate\Http\Request;
-// use Request
+// Use if you need
+// use Illuminate\Http\Request;
 
 class LoginController extends Controller
 {
     public function index()
     {
-      return view('login');
+        return view('login');
     }
 
     public function login(LoginRequest $request)
     {
-      if ($request->password == '123pass') {
+        // Set your password here
+        if ($request->password == '123pass') {
 
-        $validated = $request->validated();
-        $request->session()->put('auth', true);
-        return redirect()->route('calculator');
+            $validated = $request->validated();
+            $request->session()->put('auth', true);
+            return redirect()->route('firstcalculator');
 
-      } else {
-          
-        $request->session()->flash('status', 'Неверный пароль!');
-        return redirect()->back();
-          
-      }
+        } else {
+
+            $request->session()->flash('status', 'Неверный пароль!');
+            return redirect()->back();
+
+        }
     }
 }
