@@ -95,7 +95,7 @@
                         </div>
                         <div class="d-flex flex-column">
                             <div class="d-flex flex-row">
-                                <lable class="form-label mt-2">{{ __('Входная влажность, %') }}</lable>
+                                <lable class="form-label mt-2">{{ __('Входная влажность, %:') }}</lable>
                             </div>
                             <div class="d-flex flex-row">
                                 <input name="secondtd" value="{{ !empty(session('secondtd')) ? session('secondtd') : NULL}}" type="number" class="form-control"/>
@@ -103,7 +103,7 @@
                         </div>
                         <div class="d-flex flex-column">
                             <div class="d-flex flex-row">
-                                <lable class="form-label mt-2">{{ __('Выходная влажность, %') }}</lable>
+                                <lable class="form-label mt-2">{{ __('Выходная влажность, %:') }}</lable>
                             </div>
                             <div class="d-flex flex-row">
                                 <input name="secondte" value="{{ !empty(session('secondte')) ? session('secondte') : NULL}}" type="number" class="form-control"/>
@@ -175,7 +175,7 @@
                         </div>
                         <div class="d-flex flex-column">
                             <div class="d-flex flex-row">
-                                <lable class="form-label mt-2">{{ __('Входная влажность, %') }}</lable>
+                                <lable class="form-label mt-2">{{ __('Входная влажность, %:') }}</lable>
                             </div>
                             <div class="d-flex flex-row">
                                 <input name="thridtd" value="{{ !empty(session('thridtd')) ? session('thridtd') : NULL}}" type="number" class="form-control"/>
@@ -183,7 +183,7 @@
                         </div>
                         <div class="d-flex flex-column">
                             <div class="d-flex flex-row">
-                                <lable class="form-label mt-2">{{ __('Выходная влажность, %') }}</lable>
+                                <lable class="form-label mt-2">{{ __('Выходная влажность, %:') }}</lable>
                             </div>
                             <div class="d-flex flex-row">
                                 <input name="thridte" value="{{ !empty(session('thridte')) ? session('thridte') : NULL}}" type="number" class="form-control"/>
@@ -255,7 +255,7 @@
                         </div>
                         <div class="d-flex flex-column">
                             <div class="d-flex flex-row">
-                                <lable class="form-label mt-2">{{ __('Входная влажность, %') }}</lable>
+                                <lable class="form-label mt-2">{{ __('Входная влажность, %:') }}</lable>
                             </div>
                             <div class="d-flex flex-row">
                                 <input name="fourthtd" value="{{ !empty(session('fourthtd')) ? session('fourthtd') : NULL}}" type="number" class="form-control"/>
@@ -263,7 +263,7 @@
                         </div>
                         <div class="d-flex flex-column">
                             <div class="d-flex flex-row">
-                                <lable class="form-label mt-2">{{ __('Выходная влажность, %') }}</lable>
+                                <lable class="form-label mt-2">{{ __('Выходная влажность, %:') }}</lable>
                             </div>
                             <div class="d-flex flex-row">
                                 <input name="fourthte" value="{{ !empty(session('fourthte')) ? session('fourthte') : NULL}}" type="number" class="form-control"/>
@@ -302,7 +302,7 @@
                         </div>
                         <div class="d-flex flex-column">
                             <div class="d-flex flex-row">
-                                <lable class="form-label mt-2">{{ __('Входная влажность, % (обычно 20%)') }}</lable>
+                                <lable class="form-label mt-2">{{ __('Входная влажность, % (обычно 20%):') }}</lable>
                             </div>
                             <div class="d-flex flex-row">
                                 <input name="fifthtb" value="{{ !empty(session('fifthtb')) ? session('fifthtb') : NULL}}" type="number" class="form-control"/>
@@ -310,7 +310,7 @@
                         </div>
                         <div class="d-flex flex-column">
                             <div class="d-flex flex-row">
-                                <lable class="form-label mt-2">{{ __('Выходная влажность, % (обычно 20%)') }}</lable>
+                                <lable class="form-label mt-2">{{ __('Выходная влажность, % (обычно 15%):') }}</lable>
                             </div>
                             <div class="d-flex flex-row">
                                 <input name="fifthtc" value="{{ !empty(session('fifthtc')) ? session('fifthtc') : NULL}}" type="number" class="form-control"/>
@@ -318,7 +318,7 @@
                         </div>
                         <div class="d-flex flex-column">
                             <div class="d-flex flex-row">
-                                <lable class="form-label mt-2">{{ __('Производительность физическая, в час') }}</lable>
+                                <lable class="form-label mt-2">{{ __('Производительность физическая, в час:') }}</lable>
                             </div>
                             <div class="d-flex flex-row">
                                 <input name="fifthtd" value="{{ !empty(session('fifthtd')) ? session('fifthtd') : NULL}}" type="number" class="form-control"/>
@@ -326,7 +326,7 @@
                         </div>
                         <div class="d-flex flex-column">
                             <div class="d-flex justify-content-center">
-                                <lable class="form-label mt-2 fs-5"><b>{{ __('Производительность НОМИНАЛЬНАЯ, при снятии влажности с пшеницы с 20% до 14%, плановых тонн в час') }}</b></lable>
+                                <lable class="form-label mt-2 fs-5"><b>{{ __('Производительность НОМИНАЛЬНАЯ, при снятии влажности с пшеницы с 20% до 14%, плановых тонн в час:') }}</b></lable>
                             </div>
                             <div class="d-flex justify-content-center">
                                 <lable class="form-label mt-1 text-center fs-3 text-success"><b>{{ !empty($results['result_fifth_table']) ? $results['result_fifth_table'] : 'ИТОГ' }}</b></lable>
@@ -341,7 +341,7 @@
                     <div class="d-flex flex-column">
                         <div class="d-flex flex-column">
                             <div class="d-flex flex-row">
-                                <lable class="form-label mt-2">{{ __('Производительность НОМИНАЛЬНАЯ') }}</lable>
+                                <lable class="form-label mt-2">{{ __('Производительность НОМИНАЛЬНАЯ,при снятии влажности с пшеницы с 20% до 14%, плановых тонн в час:') }}</lable>
                             </div>
                             <div class="d-flex flex-row">
                                 <input name="sixta" value="{{ !empty(session('sixta')) ? session('sixta') : NULL}}" type="number" class="form-control"/>
@@ -349,7 +349,7 @@
                         </div>
                         <div class="d-flex flex-column">
                             <div class="d-flex flex-row">
-                                <lable class="form-label mt-2">{{ __('Культура') }}</lable>
+                                <lable class="form-label mt-2">{{ __('Какая культура?') }}</lable>
                             </div>
                             <div class="d-flex flex-row">
                                 <select name="sixtb" value="{{ !empty(session('sixtb')) ? session('sixtb') : NULL}}" class="form-select mt-2" aria-label="Default select example">
@@ -374,7 +374,7 @@
                         </div>
                         <div class="d-flex flex-column">
                             <div class="d-flex flex-row">
-                                <lable class="form-label mt-2">{{ __('Входная влажность, %') }}</lable>
+                                <lable class="form-label mt-2">{{ __('Входная влажность, %:') }}</lable>
                             </div>
                             <div class="d-flex flex-row">
                                 <input name="sixtc" value="{{ !empty(session('sixtc')) ? session('sixtc') : NULL}}" type="number" class="form-control"/>
@@ -382,7 +382,7 @@
                         </div>
                         <div class="d-flex flex-column">
                             <div class="d-flex flex-row">
-                                <lable class="form-label mt-2">{{ __('Выходная влажность, %') }}</lable>
+                                <lable class="form-label mt-2">{{ __('Выходная влажность, %:') }}</lable>
                             </div>
                             <div class="d-flex flex-row">
                                 <input name="sixtd" value="{{ !empty(session('sixtd')) ? session('sixtd') : NULL}}" type="number" class="form-control mt-2"/>
@@ -390,7 +390,7 @@
                         </div>
                         <div class="d-flex flex-column">
                             <div class="d-flex justify-content-center">
-                                <lable class="form-label mt-2 fs-5"><b>{{ __('Производительность физическая по культуре, тонн в час') }}</b></lable>
+                                <lable class="form-label mt-2 fs-5"><b>{{ __('Производительность физическая по культуре, тонн в час:') }}</b></lable>
                             </div>
                             <div class="d-flex justify-content-center">
                                 <lable class="form-label mt-1 text-center fs-3 text-success"><b>{{ !empty($results['result_six_table']) ? $results['result_six_table'] : 'ИТОГ' }}</b></lable>

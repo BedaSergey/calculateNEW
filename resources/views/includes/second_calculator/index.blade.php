@@ -38,9 +38,9 @@
                             <lable class="form-label mt-3">{{ __('Какая культура?') }}</lable>
                             <lable class="form-label mt-3">{{ __('Валовка, тонн в сутки?') }}</lable>
                             <lable class="form-label mt-3">{{ __('Время работы в сутки, часов (обычно 8)?') }}</lable>
-                            <lable class="form-label mt-2">{{ __('Объёмная масса культуры, тонн/м3') }}</lable>
-                            <lable class="form-label mt-3">{{ __('Необходимая производительность по указанной культуре, тонн в час') }}</lable>
-                            <lable class="form-label mt-2 fs-5"><b>{{ __('Необходимая производительность в пересчёте на пшеницу, т/ч') }}</b></lable>
+                            <lable class="form-label mt-2">{{ __('Объёмная масса культуры, тонн/м3:') }}</lable>
+                            <lable class="form-label mt-3">{{ __('Необходимая производительность по указанной культуре, тонн в час:') }}</lable>
+                            <lable class="form-label mt-2 fs-5"><b>{{ __('Необходимая производительность в пересчёте на пшеницу, т/ч:') }}</b></lable>
                         </div>
                     </div>
                     <div class="col-4">
@@ -80,9 +80,9 @@
                             <lable class="form-label mt-3">{{ __('Какая культура?') }}</lable>
                             <lable class="form-label mt-3">{{ __('Валовка, тонн в сутки?') }}</lable>
                             <lable class="form-label mt-3">{{ __('Время работы в сутки, часов (обычно 8)?') }}</lable>
-                            <lable class="form-label mt-2">{{ __('Объёмная масса культуры, тонн/м3') }}</lable>
-                            <lable class="form-label mt-3">{{ __('Необходимая производительность по указанной культуре, тонн в час') }}</lable>
-                            <lable class="form-label mt-2 fs-5"><b>{{ __('Необходимая производительность в пересчёте на пшеницу, т/ч') }}</b></lable>
+                            <lable class="form-label mt-2">{{ __('Объёмная масса культуры, тонн/м3:') }}</lable>
+                            <lable class="form-label mt-3">{{ __('Необходимая производительность по указанной культуре, тонн в час:') }}</lable>
+                            <lable class="form-label mt-2 fs-5"><b>{{ __('Необходимая производительность в пересчёте на пшеницу, т/ч:') }}</b></lable>
                         </div>
                     </div>
                     <div class="col-4">
@@ -122,9 +122,9 @@
                             <lable class="form-label mt-3">{{ __('Какая культура?') }}</lable>
                             <lable class="form-label mt-3">{{ __('Валовка, тонн в сутки?') }}</lable>
                             <lable class="form-label mt-3">{{ __('Время работы в сутки, часов (обычно 8)?') }}</lable>
-                            <lable class="form-label mt-2">{{ __('Объёмная масса культуры, тонн/м3') }}</lable>
-                            <lable class="form-label mt-3">{{ __('Необходимая производительность по указанной культуре, тонн в час') }}</lable>
-                            <lable class="form-label mt-2 fs-5"><b>{{ __('Необходимая производительность в пересчёте на пшеницу, т/ч') }}</b></lable>
+                            <lable class="form-label mt-2">{{ __('Объёмная масса культуры, тонн/м3:') }}</lable>
+                            <lable class="form-label mt-3">{{ __('Необходимая производительность по указанной культуре, тонн в час:') }}</lable>
+                            <lable class="form-label mt-2 fs-5"><b>{{ __('Необходимая производительность в пересчёте на пшеницу, т/ч:') }}</b></lable>
                         </div>
                     </div>
                     <div class="col-4">

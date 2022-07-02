@@ -38,10 +38,10 @@
                             <lable class="form-label mt-3">{{ __('Какая культура?') }}</lable>
                             <lable class="form-label mt-3">{{ __('Валовка, тонн в сутки?') }}</lable>
                             <lable class="form-label mt-3">{{ __('Время работы в сутки, часов (обычно 20-22)?') }}</lable>
-                            <lable class="form-label mt-2">{{ __('Входная влажность, %') }}</lable>
-                            <lable class="form-label mt-3">{{ __('Выходная влажность, %') }}</lable>
-                            <lable class="form-label mt-3">{{ __('Необходимая производительность по указанной культуре, тонн в час') }}</lable>
-                            <lable class="form-label mt-2 fs-5"><b>{{ __('Необходимая производительность сушилки номинальная при снятии влажности с пшеницы с 20% до 14%, плановых тонн в час') }}</b></lable>
+                            <lable class="form-label mt-2">{{ __('Входная влажность, %:') }}</lable>
+                            <lable class="form-label mt-3">{{ __('Выходная влажность, %:') }}</lable>
+                            <lable class="form-label mt-2">{{ __('Необходимая производительность по указанной культуре, тонн в час:') }}</lable>
+                            <lable class="form-label mt-2 fs-5"><b>{{ __('Необходимая производительность сушилки номинальная при снятии влажности с пшеницы с 20% до 14%, плановых тонн в час:') }}</b></lable>
                         </div>
                     </div>
                     <div class="col-4">
@@ -82,10 +82,10 @@
                             <lable class="form-label mt-3">{{ __('Какая культура?') }}</lable>
                             <lable class="form-label mt-3">{{ __('Валовка, тонн в сутки?') }}</lable>
                             <lable class="form-label mt-3">{{ __('Время работы в сутки, часов (обычно 20-22)?') }}</lable>
-                            <lable class="form-label mt-2">{{ __('Входная влажность, %') }}</lable>
-                            <lable class="form-label mt-3">{{ __('Выходная влажность, %') }}</lable>
-                            <lable class="form-label mt-3">{{ __('Необходимая производительность по указанной культуре, тонн в час') }}</lable>
-                            <lable class="form-label mt-2 fs-5"><b>{{ __('Необходимая производительность сушилки номинальная при снятии влажности с пшеницы с 20% до 14%, плановых тонн в час') }}</b></lable>
+                            <lable class="form-label mt-2">{{ __('Входная влажность, %:') }}</lable>
+                            <lable class="form-label mt-3">{{ __('Выходная влажность, %:') }}</lable>
+                            <lable class="form-label mt-2">{{ __('Необходимая производительность по указанной культуре, тонн в час:') }}</lable>
+                            <lable class="form-label mt-2 fs-5"><b>{{ __('Необходимая производительность сушилки номинальная при снятии влажности с пшеницы с 20% до 14%, плановых тонн в час:') }}</b></lable>
                         </div>
                     </div>
                     <div class="col-4">
@@ -126,10 +126,10 @@
                             <lable class="form-label mt-3">{{ __('Какая культура?') }}</lable>
                             <lable class="form-label mt-3">{{ __('Валовка, тонн в сутки?') }}</lable>
                             <lable class="form-label mt-3">{{ __('Время работы в сутки, часов (обычно 20-22)?') }}</lable>
-                            <lable class="form-label mt-2">{{ __('Входная влажность, %') }}</lable>
-                            <lable class="form-label mt-3">{{ __('Выходная влажность, %') }}</lable>
-                            <lable class="form-label mt-3">{{ __('Необходимая производительность по указанной культуре, тонн в час') }}</lable>
-                            <lable class="form-label mt-2 fs-5"><b>{{ __('Необходимая производительность сушилки номинальная при снятии влажности с пшеницы с 20% до 14%, плановых тонн в час') }}</b></lable>
+                            <lable class="form-label mt-2">{{ __('Входная влажность, %:') }}</lable>
+                            <lable class="form-label mt-3">{{ __('Выходная влажность, %:') }}</lable>
+                            <lable class="form-label mt-2">{{ __('Необходимая производительность по указанной культуре, тонн в час:') }}</lable>
+                            <lable class="form-label mt-2 fs-5"><b>{{ __('Необходимая производительность сушилки номинальная при снятии влажности с пшеницы с 20% до 14%, плановых тонн в час:') }}</b></lable>
                         </div>
                     </div>
                     <div class="col-4">
@@ -168,10 +168,10 @@
                     <div class="col-8">
                         <div class="d-flex flex-column">
                             <lable class="form-label mt-3">{{ __('Указанные показатели оп пшенице:') }}</lable>
-                            <lable class="form-label mt-3">{{ __('Входная влажность, % (обычно 20%)') }}</lable>
-                            <lable class="form-label mt-3">{{ __('Выходная влажность, % (обычно 20%)') }}</lable>
-                            <lable class="form-label mt-2">{{ __('Производительность физическая, в час') }}</lable>
-                            <lable class="form-label mt-2 fs-5"><b>{{ __("Производительность НОМИНАЛЬНАЯ, при снятии влажности с пшеницы с 20% до 14%, плановых тонн в час") }}</b></lable>
+                            <lable class="form-label mt-3">{{ __('Входная влажность, % (обычно 20%):') }}</lable>
+                            <lable class="form-label mt-2">{{ __('Выходная влажность, % (обычно 15%):') }}</lable>
+                            <lable class="form-label mt-2">{{ __('Производительность физическая, в час:') }}</lable>
+                            <lable class="form-label mt-2 fs-5"><b>{{ __("Производительность НОМИНАЛЬНАЯ, при снятии влажности с пшеницы с 20% до 14%, плановых тонн в час:") }}</b></lable>
                         </div>
                     </div>
                     <div class="col-4">
@@ -190,11 +190,11 @@
                 <div class="d-flex rounded bg-light p-3 shadow-sm">
                     <div class="col-8">
                         <div class="d-flex flex-column">
-                            <lable class="form-label mt-3">{{ __('Производительность НОМИНАЛЬНАЯ') }}</lable>
-                            <lable class="form-label mt-2">{{ __("Культура") }}</lable>
-                            <lable class="form-label mt-2">{{ __('Входная влажность, %') }}</lable>
-                            <lable class="form-label mt-3">{{ __('Выходная влажность, %') }}</lable>
-                            <lable class="form-label mt-3 fs-5"><b>{{ __('Производительность физическая по культуре, тонн в час') }}</b></lable>
+                            <lable class="form-label mt-3">{{ __('Производительность НОМИНАЛЬНАЯ,при снятии влажности с пшеницы с 20% до 14%, плановых тонн в час:') }}</lable>
+                            <lable class="form-label mt-2">{{ __("Какая культура?") }}</lable>
+                            <lable class="form-label mt-2">{{ __('Входная влажность, %:') }}</lable>
+                            <lable class="form-label mt-3">{{ __('Выходная влажность, %:') }}</lable>
+                            <lable class="form-label mt-3 fs-5"><b>{{ __('Производительность физическая по культуре, тонн в час:') }}</b></lable>
                         </div>
                     </div>
                     <div class="col-4">

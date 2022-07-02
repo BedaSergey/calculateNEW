@@ -95,7 +95,7 @@
                         </div>
                         <div class="d-flex flex-column">
                             <div class="d-flex flex-row">
-                                <lable class="form-label mt-2">{{ __('Объёмная масса культуры, тонн/м3') }}</lable>
+                                <lable class="form-label mt-2">{{ __('Объёмная масса культуры, тонн/м3:') }}</lable>
                             </div>
                             <div class="d-flex flex-row">
                                 <input name="secondtd" disabled value="{{ !empty(session('secondtd')) ? session('secondtd') : NULL}}" type="number" class="form-control"/>
@@ -111,7 +111,7 @@
                         </div>
                         <div class="d-flex flex-column">
                             <div class="d-flex justify-content-center">
-                                <lable class="form-label mt-2 fs-5"><b>{{ __('Необходимая производительность в пересчёте на пшеницу, т/ч') }}</b></lable>
+                                <lable class="form-label mt-2 fs-5"><b>{{ __('Необходимая производительность в пересчёте на пшеницу, т/ч:') }}</b></lable>
                             </div>
                             <div class="d-flex justify-content-center">
                                 <lable class="form-label mt-1 text-center fs-3 text-success"><b>{{ !empty($results['result_second_table']) ? $results['result_second_table'] : 'ИТОГ' }}</b></lable>
@@ -167,7 +167,7 @@
                         </div>
                         <div class="d-flex flex-column">
                             <div class="d-flex flex-row">
-                                <<lable class="form-label mt-2">{{ __('Объёмная масса культуры, тонн/м3') }}</lable>
+                                <<lable class="form-label mt-2">{{ __('Объёмная масса культуры, тонн/м3:') }}</lable>
                             </div>
                             <div class="d-flex flex-row">
                                 <input name="thridtd" disabled value="{{ !empty(session('thridtd')) ? session('thridtd') : NULL}}" type="number" class="form-control"/>
@@ -175,7 +175,7 @@
                         </div>
                         <div class="d-flex flex-column">
                             <div class="d-flex flex-row">
-                                <lable class="form-label mt-2">{{ __('Необходимая производительность по указанной культуре, тонн в час') }}</lable>
+                                <lable class="form-label mt-2">{{ __('Необходимая производительность по указанной культуре, тонн в час:') }}</lable>
                             </div>
                             <div class="d-flex flex-row">
                                 <input name="thridte" disabled value="{{ !empty(session('thridte')) ? session('thridte') : NULL}}" type="number" class="form-control"/>
@@ -183,7 +183,7 @@
                         </div>
                         <div class="d-flex flex-column">
                             <div class="d-flex justify-content-center">
-                                <lable class="form-label mt-2 fs-5"><b>{{ __('Необходимая производительность в пересчёте на пшеницу, т/ч') }}</b></lable>
+                                <lable class="form-label mt-2 fs-5"><b>{{ __('Необходимая производительность в пересчёте на пшеницу, т/ч:') }}</b></lable>
                             </div>
                             <div class="d-flex justify-content-center">
                                 <lable class="form-label mt-1 text-center fs-3 text-success"><b>{{ !empty($results['result_thrid_table']) ? $results['result_thrid_table'] : 'ИТОГ' }}</b></lable>
@@ -239,7 +239,7 @@
                         </div>
                         <div class="d-flex flex-column">
                             <div class="d-flex flex-row">
-                                <lable class="form-label mt-2">{{ __('Объёмная масса культуры, тонн/м3') }}</lable>
+                                <lable class="form-label mt-2">{{ __('Объёмная масса культуры, тонн/м3:') }}</lable>
                             </div>
                             <div class="d-flex flex-row">
                                 <input name="fourthtd" disabled value="{{ !empty(session('fourthtd')) ? session('fourthtd') : NULL}}" type="number" class="form-control"/>
@@ -247,7 +247,7 @@
                         </div>
                         <div class="d-flex flex-column">
                             <div class="d-flex flex-row">
-                                <lable class="form-label mt-2">{{ __('Необходимая производительность по указанной культуре, тонн в час') }}</lable>
+                                <lable class="form-label mt-2">{{ __('Необходимая производительность по указанной культуре, тонн в час:') }}</lable>
                             </div>
                             <div class="d-flex flex-row">
                                 <input name="fourthte" disabled value="{{ !empty(session('fourthte')) ? session('fourthte') : NULL}}" type="number" class="form-control"/>
@@ -255,7 +255,7 @@
                         </div>
                         <div class="d-flex flex-column">
                             <div class="d-flex justify-content-center">
-                                <lable class="form-label mt-2 fs-5"><b>{{ __('Необходимая производительность в пересчёте на пшеницу, т/ч') }}</b></lable>
+                                <lable class="form-label mt-2 fs-5"><b>{{ __('Необходимая производительность в пересчёте на пшеницу, т/ч:') }}</b></lable>
                             </div>
                             <div class="d-flex justify-content-center">
                                 <lable class="form-label mt-1 text-center fs-3 text-success"><b>{{ !empty($results['result_fourth_table']) ? $results['result_fourth_table'] : 'ИТОГ' }}</b></lable>

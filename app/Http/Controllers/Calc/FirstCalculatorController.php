@@ -8,6 +8,7 @@ use App\Http\Traits\CalculatorTrait;
 
 class FirstCalculatorController extends Controller
 {
+    // For methods K1 and K2
     use CalculatorTrait;
 
     /* Incoming request

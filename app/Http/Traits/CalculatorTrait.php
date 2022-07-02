@@ -3,7 +3,7 @@
 namespace App\Http\Traits;
 
 /**
- * Traint for use in calculator controllers
+ * Traint for use in calculator controllers, it retirn any parameters
  */
 trait CalculatorTrait
 {
